@@ -1,3 +1,11 @@
 1688559697907	Delete elements
 1688559722226	Rename resource 'application.properties'
 1688578273065	Rename type 'ResourcesException'
+1688644394019	Rename type 'UserApiApplication'
+1688644395997	Rename type 'UserApiApplicationTests'
+1688644435992	Rename type 'UserApiApplication8000'
+1688644437925	Rename type 'UserApiApplication8000Tests'
+1688731740254	Copy compilation unit
+1688733938951	Copy package
+1688734727374	Copy package
+1688734753105	Copy package
