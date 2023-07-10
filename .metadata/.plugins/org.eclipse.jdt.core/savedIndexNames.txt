@@ -32,6 +32,7 @@ INDEX VERSION 1.131+C:\Users\KRIBEIRO\OneDrive - Capgemini\Documents\Programação
 330714884.index
 3007139856.index
 4169878141.index
+2422777910.index
 2876056969.index
 2613412438.index
 3405925441.index
@@ -103,7 +104,6 @@ INDEX VERSION 1.131+C:\Users\KRIBEIRO\OneDrive - Capgemini\Documents\Programação
 1628042712.index
 3075478623.index
 2760369614.index
-1858080931.index
 1809256989.index
 2970530062.index
 577016659.index

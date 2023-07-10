@@ -2193,3 +2193,10 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2023-07-10 11:56:54,963 [Worker-12: Launching payroll-api - PayrollApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-07-10 11:56:54,964 [Worker-12: Launching payroll-api - PayrollApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2023-07-10 11:56:54,964 [Worker-12: Launching payroll-api - PayrollApiApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KRIBEIRO\OneDrive - Capgemini\Documents\Programação\Microsservice2\MS-karen\payroll-api\src\test\resources
+2023-07-10 15:39:52,203 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-10 15:39:52,204 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-10 15:39:52,206 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2023-07-10 15:39:52,217 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2023-07-10 15:39:52,222 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-07-10 15:39:52,222 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-07-10 15:39:52,223 [Worker-70: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\KRIBEIRO\OneDrive - Capgemini\Documents\Programação\Microsservice2\MS-karen\payroll-api\src\test\resources
