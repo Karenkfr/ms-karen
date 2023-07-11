@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: api-gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+server:
+    port: ${PORT:8767}
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    service-url:
+      defaultZone: ${eureka_url:http://localhost:8767/eureka}
+  instance:
+    hostname: http://localhost:8767
+    prefer-ip-address: true
