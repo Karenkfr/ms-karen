@@ -1,0 +1,54 @@
+version: '3.4'
+
+services:
+
+  eureka-server:
+    image: karenkfr/eureka-server:1.0.0
+    ports:
+      - "8761:8761"
+    expose:
+      - "8761"
+    networks:
+      - ms-karen
+  
+  api-gatewaay:
+    image: karenkfr/api-gatewaay:1.0.0
+    ports:
+      - "8765:8765"
+    expose:
+      - "8765"
+    depends_on:
+      - eureka-server
+    environment:
+      - EUREKA_URL=http://eureka-server:8761/eureka
+  
+  user-api:
+    image: karenkfr/user-api:1.0.0
+    ports:
+      - "8000:8000"
+    depends_on:
+      - eureka-server
+      - api-gatewaay
+    environment:
+      - EUREKA_URL=http://eureka-server:8761/eureka
+    networks:
+      ms-karen
+
+payroll-api:
+    image: karenkfr/payroll-api:1.0.0
+    ports:
+      - "8100:8100"
+    depends_on:
+      - eureka-server
+      - api-gatewaay
+      - user-api
+    environment:
+      - PORT=8100
+      - EUREKA_URL=http://eureka-server:8761/eureka
+    networks:
+      ms-karen
+
+
+networks:
+  ms-karen:
+    driver: brigde

@@ -8,13 +8,13 @@ spring:
           enabled: true
           lower-case-service-id: true
 server:
-    port: ${PORT:8767}
+    port: ${PORT:8765}
 eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
     service-url:
-      defaultZone: ${eureka_url:http://localhost:8767/eureka}
+      defaultZone: ${eureka_url:http://localhost:8761/eureka}
   instance:
     hostname: http://localhost:8767
     prefer-ip-address: true
