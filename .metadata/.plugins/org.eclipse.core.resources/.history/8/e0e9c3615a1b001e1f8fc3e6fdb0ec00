@@ -1,5 +1,0 @@
-package br.com.karen.userapi.resources.exceptions;
-
-public class StandardError {
-
-}

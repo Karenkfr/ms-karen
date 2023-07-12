@@ -1,5 +1,0 @@
-package br.com.karen.userapi.repositories;
-
-public class UserRepository {
-
-}

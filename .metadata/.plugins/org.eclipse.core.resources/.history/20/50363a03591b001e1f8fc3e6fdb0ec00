@@ -1,5 +1,0 @@
-package br.com.karen.userapi.services.exceptions;
-
-public class ObjectNotFoundException {
-
-}
